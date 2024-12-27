@@ -16,6 +16,11 @@ class Start_Info:
 def display():
     print('Hello')
 
+def count():
+    c = 5
+    b+=5
+    print(c, 5)
+
 
 def get_text(link):
     page = requests.get(link, headers={'User-Agent': 'sample@sample.com'})
