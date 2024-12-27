@@ -13,6 +13,9 @@ class Start_Info:
         self.reg = reg
         self.value = None
 
+def display():
+    print('Hello')
+
 
 def get_text(link):
     page = requests.get(link, headers={'User-Agent': 'sample@sample.com'})
